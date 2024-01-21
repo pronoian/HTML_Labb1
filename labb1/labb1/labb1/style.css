@@ -1,0 +1,95 @@
+/*En klass för de blå fälten som ska vara med på kontaktsidan.*/
+.kontaktinfo{
+    max-width: 100%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(129, 133, 137);   
+    
+}
+
+.body{
+    background-image: url(../bilder/sju-sorters-kakor-ny.jpg);
+}
+
+.logotyppos{
+    margin: 5px;
+    float: left;
+    width: 0px;
+    height: 0px;
+}
+
+.kontakttextposition{
+    padding-top: 2px;
+    text-align: center; 
+    padding-right: 100px;
+}
+
+.kontaktheaderpos{
+    position: relative;
+    text-align: center;
+}
+
+/*Klass för kontaktheader*/
+.kontaktheader{
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.kontakth1{
+    font-size: x-large;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+
+.kontaktpara{
+    font-size: x-large;
+    font-style: italic;
+}
+
+/*Klass för foten med kontaktinformation. Anger position.*/
+.kontaktfoot{
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute; 
+    bottom: 5px;
+    text-align: center;
+}
+
+.navbar{
+    margin-top: 100px;
+    width: 100px;
+    height: 200px;
+    display: grid;
+    row-gap: 20px;
+    float: left;
+}
+
+
+.navbar-item{
+    background-color: rgb(129, 133, 137);
+    margin-top: 80px ;
+    padding-left: 5px ;
+    padding-right: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.textkartaheader{
+    width: 180px;
+    background-color: rgb(129, 133, 137);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.textkartapara{
+    background-color: rgb(129, 133, 137);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a{
+    color: black;
+}
