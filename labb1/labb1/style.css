@@ -2,6 +2,8 @@ body {
     margin: 0;
     background-color: #faf9f9;
     color: white;
+    scroll-behavior:smooth;
+   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 html {
@@ -34,6 +36,9 @@ nav {
     align-items: center;
 
 
+}
+#produkter {
+    scroll-margin-top: 100px;
 }
 .navSpan {
     margin-right: 0px;
@@ -113,7 +118,9 @@ section:hover {
     justify-content: center;
 
 }
-
+table, th, td {
+    border: solid 2px white;
+}
 
 .heroDiv {
     width: 50%;
