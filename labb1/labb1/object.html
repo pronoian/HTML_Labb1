@@ -2,24 +2,63 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
+    <!-- För att få kakan som icon uppe i tabben -->
+    <link rel="icon" href="../bild/logotypnyalbert(1).ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alberts burkar</title>
+    <title>Alberts kakor</title>
 </head>
 <body>
 
     <header>
-        <nav></nav>
+        <nav>
+            <a href="index.html"><img src="../bild/logotypnyalbert(1).png" alt="Logotyp av en kaka" class="logo"></a>
+            <span class="navSpan">
+                <a href="object.html" class="navOptions" style="text-decoration: underline;">Produkt</a>
+                <a href="https://geekprank.com/winxp-update/" target="_blank" class="navOptions">Info</a>
+                <a href="about.html" class="navOptions">Kontakt</a>
+            </span>
+        </nav>
     </header>
     <main>
         <article>
-            <section>
-                <h1>Hallå</h1>
+            <section class="heroSection">
+                <div class="heroDiv">
+                    <img class="heroGif" src="../bild/kaka2.jpg" alt="Viktigt dokument">
+                </div>
+                <div class="heroDivTwo">
+                    <h2>Men vaför just denna kaka?</h2>
+                    <ul>
+                        <li>Fett mumsig</li>
+                        <li>Unik och inovativ design</li>
+                        <li>Katter gillar dem</li>
+                        <li>Prisvärda</li>
+                    </ul>
+                    <div class="checkout">
+                        <strong>Pris: 420kr</strong>
+                        <form  action="object.html" method="get">
+                            <button type="submit" value="420">
+                                Köp nu
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                
+
             </section>
+            
         </article>
     </main>
     <footer>
-        
+        <div class="fade"></div>
+        <span class="footerSpan">
+            <a class="footerLink" href="#">ETT</a>
+            <a class="footerLink" href="https://github.com/pronoian/HTML_Labb1/" target="_blank"><img class="github-logo" src="../bild/github-mark-white.png" alt="GitHub Logo"></a>
+            <a class="footerLink" href="mailto:info@example.se">info@example.se</a>
+        </span>
     </footer>
     
 </body>
 </html>
+
