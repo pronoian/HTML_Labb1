@@ -62,7 +62,7 @@ nav {
 }
 .navLogo:hover {
     transition-duration: 0.3s;
-    scale: 1.04;
+    transform: scale(1.04);
     color: white;
 }
 aside {
@@ -101,7 +101,7 @@ section {
     transition-duration: 0.4s;
 }
 section:hover {
-    scale: 1.02;
+    transform: scale(1.02);
     transition-duration: 0.4s;
 }
 .heroSection {
@@ -159,7 +159,7 @@ table, th, td {
 .singleAnnons:hover {
     transition-duration: 0.3s;
     border: solid 5px green;
-    scale: 1.15;
+    transform: scale(1.15);
 }
 .annonsSmallImg {
     max-width: 250px;
