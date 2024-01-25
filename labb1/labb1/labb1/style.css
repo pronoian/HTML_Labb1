@@ -1,48 +1,23 @@
-/*En klass för de blå fälten som ska vara med på kontaktsidan.*/
-.kontaktinfo{
-    max-width: 100%;
-    max-height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-color: rgb(0, 0, 0); 
-    
-}
 
 .body{
-    background-color: white;
+    background-color: #faf9f9;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    margin: 0px;
 }
 
-.logotyppos{
-    margin: 5px;
-    float: left;
-    width: 0px;
-    height: 0px;
-}
 
 .kontakttextposition{
-    padding-top: 2px;
     text-align: center; 
-    padding-right: 100px;
-}
-
-.kontaktheaderpos{
-    position: relative;
-    text-align: center;
-}
-
-/*Klass för kontaktheader*/
-.kontaktheader{
-    font-size: xx-large;
-    font-style: italic;
-    
-}
-
-.kontakth1{
-    font-size: x-large;
-    font-style: italic;
-    text-decoration-line: underline;
+    background-color: #090D15;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 60px;
+    box-shadow: 2px 5px 10px #090D15;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 
@@ -53,46 +28,133 @@
 
 /*Klass för foten med kontaktinformation. Anger position.*/
 .kontaktfoot{
+    margin-left: 10px;
+    margin-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    position: absolute; 
     bottom: 5px;
     text-align: center;
+    background-color: #090D15;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 60px;
+    box-shadow: 2px 5px 10px #090D15;
 }
 
-.navbar{
-    margin-top: 100px;
-    width: 100px;
-    height: 200px;
-    display: grid;
-    row-gap: 20px;
-    float: left;
-}
-
-
-.navbar-item{
-    background-color: black;
-    margin-top: 80px ;
-    padding-left: 5px ;
-    padding-right: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: x-large;
-}
 
 .textkartaheader{
-    width: 180px;
-    background-color: black;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
 }
 
-.textkartapara{
-    background-color: black;
-    padding-left: 5px;
-    padding-right: 5px;
+
+
+nav {
+    width: 98vw;
+    height: 60px;
+    margin-left: 5px;
+    background-color: #090D15;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 60px;
+    box-shadow: 2px 5px 10px #090D15;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-a{
+.navSpan {
+    margin-right: 5px;
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+
+.navLogo {
+    display: flex;
+    align-items: center;
     color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    transition-duration: 0.3s;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 45px;
+}
+
+.navOptions {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+a {
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a.navOptions {
+    transition-duration: 0.2s;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition-duration: 0.2s;
+    color: lightblue;
+}
+
+.logahover:hover{
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+
+footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: #090D15;
+    
+}
+
+.fade {
+    width: 100%;
+    height:200px;
+    background: linear-gradient(to bottom, #faf9f9, #090D15);
+}
+
+.footerSpan {
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    padding-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    border-top: solid 1px #232427;
+       
+}
+
+.footerLink {
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20%;
+    color: #494b52!important;
+}
+
+.github-logo {
+    width: 30px;
+}
+
+.checkout {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
 }
