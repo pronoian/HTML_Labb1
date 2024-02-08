@@ -11,11 +11,17 @@
 <body>
 
     <header>
-        <nav>
+        <nav id="menu">
             <a href="index.html" class="navLogo"><img src="images/logotypnyalbert(1).png" alt="Logotyp av en kaka" class="logo">ALBERTS KAKOR</a>
             <span class="navSpan">
-                <a href="object.html" class="navOptions">Produkt</a>
-                <a href="https://geekprank.com/winxp-update/" target="_blank" class="navOptions">Info</a>
+                <a href="#produkter" class="navOptions">Produkt</a>
+                <div class="dropdownContainer">
+                    <a href="#" class="navOptions">Info</a>
+                    <div class="dropdown">
+                        <a class="navOptions" target="_blank" href="https://geekprank.com/winxp-update/">Windows</a>
+                        <a class="navOptions" target="_blank" href="https://geekprank.com/apple/">IOS</a>
+                    </div>
+                </div>
                 <a href="about.html" class="navOptions">Kontakt</a>
             </span>
         </nav>
